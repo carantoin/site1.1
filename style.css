@@ -1,0 +1,339 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+.header{
+    width: 1296px;
+    height: 167px;
+    display:flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.left{
+    width:346px;
+    display: flex;
+    justify-content: space-between;
+}
+.top{
+width:100%;
+height: 21px;
+display: flex;
+justify-content: space-between;
+}
+.right{
+    width:367px;
+    height: 21px;
+    display:flex;
+    justify-content: space-around;
+}
+.right div{
+    display: flex;
+
+}
+.bottom{
+width: 100%;
+height: 58px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.links{
+    text-decoration: none;
+    font-size: 14px; 
+    color: black;
+}
+.korzina{
+    width: 30px;
+    height: 30px;
+}
+.heart{
+    width: 30px;
+    height: 30px;
+}
+.content{
+    width: 125px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.content div{
+    width: 50px;
+    height: 30px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+}
+.maximum{
+    width: 119px;
+    height: 58px;
+}
+input{
+    width: 596px;
+    height: 41px;
+    border-radius: 10px 0px 0px 10px;
+    border: 1px solid gray;
+}
+.katalog{
+    width:110px;
+    height: 41px;
+    background-color: #0063B0;
+    color: white;
+    border-radius:10px ;
+}
+.search{
+    width: 40px;
+    height: 43px;
+    border-radius: 0px 10px 10px 0px;
+   background-color: #84C0EA;
+   border: none;
+}
+.search-container{
+    width: 636px;
+    height: 43px;
+    display: flex;
+
+}
+.container{
+    width: 1296px;
+    height: 500px;
+    background:linear-gradient(180deg, #AAADB2, #C8C9CB) ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.left-container{
+    width: 429px;
+    height: 324px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.katalog2{
+    width:120px;
+    height: 51px;
+    background-color: #0063B0;
+    color: white;
+    border-radius:10px ;
+    margin-top: 10px;
+}
+.right-container{
+width: 556px;
+height: 500px;
+display: flex;
+justify-content: center;
+}
+.right-container img{
+    width: 556px;
+    height: 500px;
+    object-fit: cover;
+    object-position: left top;
+}
+.vive{
+    margin-top: 35px;
+    padding-left: 20px;
+    list-style-type: square;
+}
+ul li {
+    padding-bottom: 15px;
+  }
+li{
+    color: #84C0EA;
+}
+li span{
+    color: white;
+}
+.brands{
+    width: 1296px;
+    height: 324px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.brands_name{
+    width: 300px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.brands_name img{
+    margin-right: 60px;
+    width: 30px;
+    height: 30px;
+}
+.brands_logo{
+    width: 966px;
+    height: 324px;
+}
+.brands_logo img{
+    width: 306px;
+    height: 150px;
+}
+.logobio{
+    object-fit: cover;
+}
+.logobest{
+    object-fit: contain;
+}
+.logoseil{
+    object-fit: contain;
+}
+.brands_logo_top{
+    width: 966px;
+    height: 150px;
+    justify-content: space-between;
+    display: flex;
+
+}
+.logouni{
+    object-fit: contain;
+}
+.logonou{
+    object-fit: contain;
+}
+.logogam{
+    object-fit: contain;
+}
+.brands_logo_down{
+    width: 966px;
+    height: 150px;
+    margin-top: 24px;
+    justify-content: space-between;
+    display: flex;
+}
+.gallery
+{
+    justify-content: center; 
+    align-items: center;
+    width: 1296px;
+    height: 974px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px; 
+    margin-top: 5%;
+  
+}
+.photo
+{
+  
+ justify-content: center; 
+ align-items: center;
+    width: 100%;
+}
+
+
+.brands_name1
+{
+   
+ 
+    margin-top: 5%;
+    width: 1296px;
+    height: 48px;
+}
+.brands_name1 img{
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.brands_logo1
+{
+    margin-top: 2%;
+    width: 1296px;
+    height: 404px;
+}
+.logo
+{
+    width: 24%;
+    height: 100%;
+}
+
+
+.info
+{
+    width: 1296px;
+    height: 489px;
+    display: flex;
+    justify-content: center;
+    margin-top : 5%;
+    
+
+}
+.text
+{
+    width: 746px;
+    height: 384px;
+}
+.textright
+{
+width: 416px;
+height: 489px;
+}
+.photo1
+{
+    width: 336px;
+    height: 408px;
+    display: flex;
+    justify-self: center;
+}
+.katalog2{
+    width:216px;
+    height: 41px;
+    background-color: #0063B0;
+    color: white;
+    margin-right: 100px;
+    justify-content: center;
+    
+}
+
+.end
+{
+    width: 1296px;
+    height: 643px;
+    margin-top:5%;
+   
+    display: grid;
+     grid-template-columns: repeat(4, 1fr); 
+     gap: 10px; 
+    padding: 20px; 
+}
+
+.maximum1
+{
+    width: 195px;
+    height: 96px;
+}
+.komp
+{
+    display: grid;
+    width: 196px;
+    height: 178px;
+    
+
+}
+.popur
+{
+    display: grid;
+    width: 306px;
+    height: 322px;
+    
+
+}
+.end1
+{
+    width: 20px;
+    height: 20px;
+}
+.ab{
+    justify-self: center;
+    align-items: center;
+}
